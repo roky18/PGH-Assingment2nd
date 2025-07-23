@@ -128,11 +128,32 @@
   padding: 25px;
 }
 
-.tlogo {
+/* .tlogo {
   height: 286px;
   width: 286px;
   position: relative;
   bottom: 750px;
   left: 520px;
   background: transparent;
+
+} */
+
+/* latest deals */
+.deals {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 133px;
+}
+.deals h1 {
+  font-weight: bold;
+  font-size: 50px;
+}
+.deals p {
+  height: 53px;
+  width: 888px;
+  font-size: 22px;
+  color: #7a7c7f;
 }
