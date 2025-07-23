@@ -3,6 +3,7 @@
   padding: 0;
   margin: 0;
   font-family: "Noto Serif", serif;
+  background-color: #f5f8ff;
 }
 
 .container {
@@ -19,6 +20,7 @@
 }
 
 .navbar-right {
+  padding-right: 20px;
 }
 
 .navbar-right ul {
@@ -38,14 +40,13 @@
   align-items: end;
   margin-top: 120px;
 }
-.banner-left {
-  width: 50%;
-}
+
 .banner-left h1 {
   font-weight: bold;
   font-size: 65px;
 }
 .banner-left p {
+  width: 85%;
   font-size: 22px;
   color: #7a7c7f;
 }
@@ -55,7 +56,6 @@
 
 /* plant */
 .plant {
-  border: 2px solid green;
   margin-top: 120px;
   align-items: center;
   justify-content: center;
@@ -89,6 +89,7 @@
   text-align: center;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+  gap: 30px 20px;
 }
 
 .card h3 {
@@ -106,4 +107,32 @@
   border: none;
   width: 270px;
   height: 50px;
+}
+
+/* flower-lover */
+.flower-lover {
+  margin-top: 211px;
+  display: flex;
+  align-items: center;
+  gap: 90px;
+}
+
+.flower-lover-right h1 {
+  font-weight: bold;
+  font-size: 50px;
+}
+.flower-lover-right ul li {
+  font-size: 22px;
+  color: #7a7c7f;
+  list-style-position: inside;
+  padding: 25px;
+}
+
+.tlogo {
+  height: 286px;
+  width: 286px;
+  position: relative;
+  bottom: 750px;
+  left: 520px;
+  background: transparent;
 }
