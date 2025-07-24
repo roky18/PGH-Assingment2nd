@@ -210,7 +210,7 @@
 }
 .bunch-text-input {
   background: transparent;
-  padding-top: 220px;
+  padding-top: 210px;
 }
 .bunch h1 {
   background: transparent;
@@ -240,4 +240,33 @@
   border: none;
   width: 186px;
   height: 50px;
+}
+
+/* footer */
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+
+.footer-left p {
+  width: 359px;
+  color: #7a7c7f;
+  padding-top: 16px;
+}
+.footer-middle ul {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 111px;
+  row-gap: 32px;
+  color: #6b7280;
+}
+.footer-middle li {
+  list-style-type: none;
+}
+.footer-right {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
 }
