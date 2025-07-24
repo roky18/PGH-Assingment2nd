@@ -19,10 +19,6 @@
   margin: 30px auto;
 }
 
-.navbar-right {
-  padding-right: 20px;
-}
-
 .navbar-right ul {
   list-style-type: none;
   display: flex;
@@ -115,6 +111,7 @@
   display: flex;
   align-items: center;
   gap: 90px;
+  position: relative;
 }
 
 .flower-lover-right h1 {
@@ -128,15 +125,14 @@
   padding: 25px;
 }
 
-/* .tlogo {
+.tlogo {
   height: 286px;
   width: 286px;
-  position: relative;
-  bottom: 750px;
-  left: 520px;
+  left: 30%;
+  bottom: 75%;
+  position: absolute;
   background: transparent;
-
-} */
+}
 
 /* latest deals */
 .deals {
@@ -150,10 +146,98 @@
 .deals h1 {
   font-weight: bold;
   font-size: 50px;
+  margin-bottom: 16px;
 }
 .deals p {
   height: 53px;
   width: 888px;
   font-size: 22px;
   color: #7a7c7f;
+}
+
+/* <!-- picture gride --> */
+.picture-gride {
+  display: flex;
+  gap: 28px;
+  text-align: center;
+  justify-content: space-between;
+  margin-top: 121px;
+  position: relative;
+}
+
+.left-up {
+  background-image: url(./assets/deal-bloom.png);
+  height: 201px;
+  width: 367px;
+  border-radius: 15px;
+}
+.left-down {
+  background-image: url(./assets/deal-ana.png);
+  height: 197px;
+  width: 367px;
+  margin-top: 25px;
+  border-radius: 15px;
+}
+.picture-gride-right {
+  background-image: url(./assets/deal-zabo.png);
+  height: 424px;
+  width: 880px;
+  background-size: cover;
+  border-radius: 25px;
+}
+.content {
+  color: #ffffff;
+  display: grid;
+  background: transparent;
+  padding-top: 25%;
+}
+.content h1 {
+  background: transparent;
+}
+.content p {
+  background: transparent;
+}
+
+/* <!-- colorful bunch --> */
+.bunch {
+  background-image: url(./assets/news-letter-bg.png);
+  background-size: cover;
+  height: 533px;
+  margin-top: 120px;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.bunch-text-input {
+  background: transparent;
+  padding-top: 220px;
+}
+.bunch h1 {
+  background: transparent;
+  font-weight: bold;
+  font-size: 50px;
+  color: #ffffff;
+}
+.bunch-input {
+  display: flex;
+  background: transparent;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin-top: 23px;
+}
+.inputbar {
+  border: none;
+  width: 644px;
+  height: 50px;
+  padding-left: 20px;
+  color: #ffffff;
+}
+
+.btn2 {
+  background-color: #e95a08;
+  color: #ffffff;
+  border: none;
+  width: 186px;
+  height: 50px;
 }
