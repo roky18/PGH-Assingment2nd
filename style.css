@@ -269,12 +269,20 @@
   justify-content: space-between;
   padding-top: 30px;
   padding-bottom: 50px;
+  background-color: #fafcff;
+}
+.footer-left {
+  background: transparent;
 }
 
 .footer-left p {
   width: 359px;
   color: #7a7c7f;
   padding-top: 16px;
+  background: transparent;
+}
+.footer-middle {
+  background: transparent;
 }
 .footer-middle ul {
   display: grid;
@@ -282,14 +290,17 @@
   column-gap: 111px;
   row-gap: 32px;
   color: #6b7280;
+  background: transparent;
 }
 .footer-middle li {
   list-style-type: none;
+  background: transparent;
 }
 .footer-right {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 30px;
+  background: transparent;
 }
 
 /* responsive */
@@ -300,6 +311,10 @@
     margin: auto;
   }
   /* navebar */
+  .navbar {
+    padding-top: 67px;
+  }
+
   .home-shop-us {
     display: none;
   }
@@ -311,29 +326,39 @@
 
   .banner-right {
     width: auto;
+    margin-top: 28px;
   }
   .banner-left h1 {
     font-size: 24px;
+    padding-top: 28px;
+    padding-left: 16px;
   }
   .banner-left p {
     width: 85%;
     font-size: 14px;
+    padding-top: 13px;
+    padding-left: 16px;
+    height: 68px;
+    width: 360px;
   }
 
   /* plant */
 
   .plant-header h1 {
     font-size: 24px;
+    height: 33px;
+    margin-top: 65px;
   }
   .plant-header p {
     font-size: 14px;
     height: 68px;
     width: 336px;
+    padding-top: 16px;
   }
   /* card */
   .card {
     grid-template-columns: repeat(2, 1fr);
-    gap: 15px 10px;
+    gap: 41px 20px;
   }
   .card h3 {
     font-size: 16px;
@@ -370,6 +395,10 @@
   .flower-lover-right h1 {
     font-size: 24px;
   }
+  .flower-lover-right h1 br {
+    display: none;
+  }
+
   .flower-lover-right ul li {
     font-size: 14px;
     padding: 16px;
@@ -378,11 +407,13 @@
   /* latest deals */
   .deals h1 {
     font-size: 24px;
+    padding-top: 143px;
   }
   .deals p {
     height: 88px;
     width: 336px;
     font-size: 14px;
+    margin-bottom: 51px;
   }
 
   /* <!-- picture gride --> */
@@ -431,8 +462,12 @@
     flex-direction: column;
     gap: 20px;
   }
+  .footer-left {
+    margin-top: 50px;
+  }
   .footer-left p {
-    width: 260px;
+    width: 359px;
+    height: 48px;
   }
   .footer-middle ul {
     grid-template-columns: repeat(1, 1fr);
